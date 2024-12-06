@@ -1,0 +1,45 @@
+.hero > *:not(.hero__boton){
+    margin-bottom:2rem;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    width: 100%;
+    min-height: 100dvh;
+    padding-block: 2rem;
+    writing-mode: horizontal-tb;
+    background-image: url("https://www.wiggles.in/cdn/shop/collections/Wiggles_Banner_Designs_Desktop_Cats_Category_Food_and_Treats_Without_Text_Size_1200x350px.jpg?v=1716211188");
+    background-size: cover;
+    background-position: center;
+    .hero__title{
+        font-size: 8rem;
+        text-transform: uppercase;
+        color: var( --headings-color);
+        text-shadow: 3px 1px 10px var(--main-color);
+    }
+    .hero__desc{
+        font-size: 3rem;
+        font-weight: 600;
+
+    }
+    .hero__button{
+        padding: 1rem 2rem;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 700;
+        border-radius: 9px;
+        border:2px solid rgb(61, 61, 61);
+        background-color: var(--headings-color);
+        transition: all .2s ease-in-out;
+        &:hover{
+            background-color: black;
+            color: white;
+            border-color: var(--headings-color);
+            transform: scale(.97);
+        }
+    }
+
+}

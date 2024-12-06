@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+  --main-color: rgb(17, 17, 17);
+  --secondary-color: rgb(244, 244, 244);
+  --bg-color: #1c1c1c;
+  --headings-color: #e2b448;
+  --highlight-color: #8c6303;
+
+
+  --font-montserrat:"Montserrat", sans-serif;
+  --pd-top: 6rem;
+  /* textos tamaños */
+  --h1: 4rem;
+  --p:1.7rem;
+
+
+  /* DarkMode */
+/*   @media (prefers-color-scheme: dark){
+    --main-color: rgb(244, 244, 244);
+  --secondary-color: rgb(17, 17, 17);
+  } */
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family:var(--font-montserrat);
+  font-size: var(--p);
+  color: var(--main-color);
+  background: var(--secondary-color);
+}
+h1{
+  font-size: var(--h1);
+  font-weight: 700;
+}
+main{
+  padding-top: var(--pd-top);
+}

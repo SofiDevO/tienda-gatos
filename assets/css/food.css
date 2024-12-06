@@ -1,0 +1,74 @@
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 100dvh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.food__content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.food__title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.food__desc {
+    margin-top: 3rem;
+    text-wrap: balance;
+}
+
+.food__pet__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.food__cat {
+    background-color: rgb(154, 154, 154);
+    border-radius: 43% 57% 77% 23% / 75% 17% 83% 25%;
+}
+
+.food__croquette {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    animation:float-icons 3s alternate infinite ease-in-out;
+}
+
+.food__croquette-1 {
+    top: 66%;
+    left: 72%;
+    animation-delay: 1s;
+}
+
+.food__croquette-2 {
+    top: -11%;
+    left: 75%;
+    animation-delay: .7s;
+}
+
+.food__croquette-3 {
+    animation-delay: .9s;
+    top: 74%;
+    left: -7%;
+}
+
+
+@keyframes float-icons {
+    from {
+        tranform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}

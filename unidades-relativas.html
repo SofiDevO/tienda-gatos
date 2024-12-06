@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades relativas</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>Acerca de mí</h2>
+            <p>Holi moli!</p>
+            <p>Holi moli!</p>
+            <p>Holi moli!</p>
+            <p>Holi moli!</p>
+            <p>Holi moli!</p>
+            <p>Holi moli!</p>
+        </div>
+        <div class="main-feed">
+            <h2>Noticias</h2>
+            <p>Noticias favoritas</p>
+            <ul>
+                <li>noticia-1</li>
+                <li>noticia-2</li>
+                <li>noticia-3</li>
+                <li>noticia-4</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<style>
+    html{
+        min-height: 100dvh;
+    }
+    body{
+        background: rgb(27, 27, 27);
+        font-family: sans-serif;
+        height: 100%;
+    }
+    h2{
+       /*  font-size: 32px; */
+        font-size: 2rem;
+    }
+    p{
+        /* font-size: 16px; */
+        font-size: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 100dvh;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .about-section{
+        background: #f8f8f8;
+        width:55%;
+        margin-right: 48px;
+        border-radius: 5px;
+        padding: 1.5rem;
+    }
+    .main-feed{
+        background: #f8f8f8;
+        padding: 24px;
+        border-radius: 5px;
+        width: 40%;
+    }
+
+</style>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Este es mi primer sitio Web. Del curso de desarrollo web Frontend de SofiDev" />
+  <link rel="shortcut icon" href="./assets/img/logo-tienda.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Mi primer sitio web</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/hero.css">
+  <link rel="stylesheet" href="./assets/css/tienda.css">
+  <link rel="stylesheet" href="./assets/css/food.css">
+</head>
+
+<body>
+  <header class="header">
+    <img class="header__logo" id="logo-header" src="./assets/img/logo-tienda.png"
+      alt="Logo del sitio. imagen de sofidev 3d" width="60" height="60" />
+    <div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__element">
+            <a class="header__link" href="#hero">Home</a>
+          </li>
+          <li class="header__element">
+            <a class="header__link" href="#store"> Tienda</a>
+          </li>
+          <li class="header__element">
+            <a class="header__link" href="#">patata</a>
+          </li>
+          <li class="header__element">
+            <a class="header__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Sección HERO -->
+    <section class="hero" id="hero">
+      <h1 class="hero__title">De todo para tu Gato</h1>
+      <p class="hero__desc">Ofertas de Verano en ropa para gato</p>
+      <a class="hero__button" href="#"> Ver ofertas</a>
+    </section>
+    <!-- Sección tienda -->
+    <section class="store" id="store">
+      <h2 class="store__title">Tienda</h2>
+      <div class="store__container">
+        <!-- crads -->
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img"
+              src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/08ca50c8b10664526d7ea1ad13333cc8.jpg"
+              alt="Camisa para gato" width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$50.00</p>
+            <p class="store__delivery">(Envío 3-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img" src="https://down-mx.img.susercontent.com/file/b1b4f804aa2c73dbc188c1686bb89aff"
+              alt="Camisa para gato" width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$240.00</p>
+            <p class="store__delivery">(Envío 1-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img" src="https://i.pinimg.com/736x/80/cf/14/80cf142d9b91e2748d86c59ec0554824.jpg"
+              alt="Camisa para gato" width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$50.00</p>
+            <p class="store__delivery">(Envío 3-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img"
+              src="https://m.media-amazon.com/images/S/aplus-media/sc/d82234e9-1082-44cb-a860-d19ff480e50b.__CR0,0,1600,1600_PT0_SX300_V1___.jpg"
+              alt="Camisa para gato" width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$50.00</p>
+            <p class="store__delivery">(Envío 3-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img" src="https://m.media-amazon.com/images/I/71YtNw-MzeL._AC_UF1000,1000_QL80_.jpg"
+              alt="Camisa para gato" width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$50.00</p>
+            <p class="store__delivery">(Envío 3-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+        <article class="store__card">
+          <div class="store__img-container">
+            <img class="store__img" src="https://m.media-amazon.com/images/I/51oH7eCHJCL.jpg" alt="Camisa para gato"
+              width="100" height="200">
+          </div>
+          <h3 class="store__name"> Suetter para Verano</h3>
+          <div class="store__info">
+            <p class="store__price">$50.00</p>
+            <p class="store__delivery">(Envío 3-4 días)</p>
+          </div>
+          <div class="store__buttons">
+            <button class="store__button">Agregar al carrito</button>
+            <button class="store__button store__button--buy">Comprar</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="food">
+      <div class="food__content">
+        <h2 class="food__title">Nuestras croquetas le encantarán</h2>
+        <p class="food__desc"> Nuestras croquetas contienen los mejores ingredientes para manterner tu gato saludable.
+        </p>
+      </div>
+
+      <div class="food__pet__container">
+        <img src="./assets/img/gato.png" alt="Gato Feliz" class="food__cat">
+        <img src="./assets/img/croqueta.png" alt="croqueta" class="food__croquette food__croquette-1" width="55" height="55">
+        <img src="./assets/img/croqueta.png" alt="croqueta" class="food__croquette food__croquette-2" width="55" height="55">
+        <img src="./assets/img/croqueta.png" alt="croqueta" class="food__croquette food__croquette-3" width="55" height="55">
+        <img src="./assets/img/croqueta.png" alt="croqueta" class="food__croquette food__croquette-4" width="55" height="55">
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
