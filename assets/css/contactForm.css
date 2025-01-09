@@ -1,0 +1,47 @@
+.contact__form > *:is(input:not(:last-child), textarea){
+    margin-bottom: 1.2rem;
+}
+.contact{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100dvh;
+    & .contact__title{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    & .contact__form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 50vw;
+        min-width: 29rem;
+        padding: 2rem;
+        background:rgb(22, 22, 22);
+        border-radius: 12px;
+        margin: 0 auto;
+    }
+    & .contact__label{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--highlight-color);
+        margin-bottom: .5rem;
+    }
+    & .contact__input, .contact__message{
+        font-size: 1.6rem;
+        padding: .7rem 1rem;
+    }
+    & .contact__button{
+        background-color: black;
+        color: var(--headings-color);
+        border-radius: 5px;
+        text-align: center;
+        border: 2px solid var(--headings-color);
+        padding: 1rem;
+        width: 100%;
+        max-width: 38rem;
+        align-self: center;
+    }
+}
