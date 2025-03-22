@@ -8,22 +8,35 @@
     flex-direction: column;
     padding: 2rem 5rem;
     width: 100%;
-    min-height: 100dvh;
+    min-height: 50dvh;
     padding-block: 2rem;
     writing-mode: horizontal-tb;
-    background-image: url("https://www.wiggles.in/cdn/shop/collections/Wiggles_Banner_Designs_Desktop_Cats_Category_Food_and_Treats_Without_Text_Size_1200x350px.jpg?v=1716211188");
+    background-image:  url("https://www.wiggles.in/cdn/shop/collections/Wiggles_Banner_Designs_Desktop_Cats_Category_Food_and_Treats_Without_Text_Size_1200x350px.jpg?v=1716211188");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    @media (width <=  768px){
+        min-height: 36dvh;
+        background-position: center right;
+        padding: 1rem;
+    }
     .hero__title{
         font-size: 8rem;
         text-transform: uppercase;
         color: var( --headings-color);
         text-shadow: 3px 1px 10px var(--main-color);
+        @media (width <=  768px){
+            font-size:3.5rem;
+        }
     }
     .hero__desc{
         font-size: 3rem;
         font-weight: 600;
-
+        @media (width <=  768px){
+            font-size: 2rem;
+            color: white;
+            text-shadow: 1px 2px 2px black;
+        }
     }
     .hero__button{
         padding: 1rem 2rem;

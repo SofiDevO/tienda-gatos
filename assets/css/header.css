@@ -24,6 +24,9 @@
     .header__list{
         gap:2rem;
         font-size: 1.8rem;
+        @media (width <=  768px){
+            font-size: 1.4rem;
+        }
         .header__element, .header__link{
             color:white;
             font-weight: 700;
