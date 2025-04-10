@@ -13,7 +13,9 @@
 .food__content {
     display: flex;
     flex-direction: column;
-
+    @media (width <=  768px) {
+        text-align: center;
+    }
 }
 
 .food__title {
@@ -30,6 +32,9 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    @media (width <=  768px) {
+        max-width: 25rem;
+    }
 }
 
 .food__cat {
@@ -42,6 +47,10 @@
     width: 10rem;
     height: 10rem;
     animation:float-icons 3s alternate infinite ease-in-out;
+    object-fit: contain;
+    @media (width <=  768px) {
+        width: 9rem;
+    }
 }
 
 .food__croquette-1 {

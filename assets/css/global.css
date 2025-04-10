@@ -30,6 +30,9 @@ body{
   font-size: var(--p);
   color: var(--main-color);
   background: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 h1{
   font-size: var(--h1);
