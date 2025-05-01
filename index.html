@@ -183,7 +183,7 @@
           name="user_name" placeholder="Escribe tu nombre" required />
         <label class="contact__label" for="email">Email</label>
         <input class="contact__input" type="email" id="email" name="user_email" placeholder="Ingresa tu email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required />
+          pattern="^(\w|.)+@(\w+.|\w{2,})+$" required />
         <label class="contact__label" for="message">Tú Mensaje</label>
         <textarea class="contact__message" name="user_message" id="message" cols="25" rows="10"
           placeholder="Escribe tu mensaje" required></textarea>
